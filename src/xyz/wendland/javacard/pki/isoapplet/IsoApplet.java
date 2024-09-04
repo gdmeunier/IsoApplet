@@ -59,7 +59,7 @@ public class IsoApplet extends Applet implements ExtendedLength {
     public static final byte API_VERSION_MINOR = (byte) 0x00;
 
     /* Card-specific configuration */
-    public static final boolean DEF_PRIVATE_KEY_IMPORT_ALLOWED = false;
+    public static final boolean DEF_PRIVATE_KEY_IMPORT_ALLOWED = true;
 
     /* ISO constants not in the "ISO7816" interface */
     // File system related INS:
